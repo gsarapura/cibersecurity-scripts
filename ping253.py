@@ -1,5 +1,11 @@
-# It is note recommend since it is slow and time-consuming.
-# only 253
+# It is not recommended since it is slow and time-consuming.
+# However, "nmap -ns <network/>" did not recongise all active hosts until a ping was executed.
+# Only 253 since:
+# xx.xx.xx.0 is for the network.
+# xx.xx.xx.1 is for the gateway.
+# xx.xx.xx.255 is for the broadcast.
+
+#! /usr/bin/python3
 import platform
 import subprocess
 
