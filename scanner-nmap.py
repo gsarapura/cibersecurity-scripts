@@ -1,4 +1,7 @@
 #! /usr/bin/python
+# Required installation:
+# pip => https://pip.pypa.io/en/stable/installation/
+# nmap => pip install python-nmap
 
 import nmap
 
